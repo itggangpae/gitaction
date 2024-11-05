@@ -1,0 +1,18 @@
+{
+  "name": "gitaction",
+  "version": "1.0.0",
+  "description": "gitaction test",
+  "main": "app.js",
+  "scripts": {
+    "test": "test mocha",
+    "start": "nodemon app"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
+}
