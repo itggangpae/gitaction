@@ -1,4 +1,5 @@
-name: Node Git Action
+
+name: Build
 
 on:
   push:
