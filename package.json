@@ -4,13 +4,14 @@
   "description": "gitaction test",
   "main": "app.js",
   "scripts": {
-    "test": "test mocha",
-    "start": "nodemon app"
+    "start": "nodemon app",
+    "test": "./node_modules/.bin/mocha test.spce.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.21.1"
+    "express": "^4.21.1",
+    "mocha": "^10.8.2"
   },
   "devDependencies": {
     "nodemon": "^3.1.7"
